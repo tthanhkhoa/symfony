@@ -8,17 +8,17 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <html>
 <head>
     <title>Blogs</title>
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
-    <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="{{ asset('css/bootstrap.css') }}" rel="stylesheet" type="text/css" media="all">
+    <link href="{{ asset('css/style.css') }}" rel="stylesheet" type="text/css" media="all" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="keywords" content="Voguish Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template,
 Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
     <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900' rel='stylesheet' type='text/css'>
-    <script src="js/jquery.min.js"></script>
-    <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
-    <script src="js/responsiveslides.min.js"></script>
+    <script src="{{ asset('js/jquery.min.js') }}"></script>
+    <link rel="stylesheet" href="{{ asset('css/flexslider.css') }}" type="text/css" media="screen" />
+    <script src="{{ asset('js/responsiveslides.min.js') }}"></script>
     <script>
         $(function () {
             $("#slider").responsiveSlides({
@@ -66,7 +66,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     <div class="blog-artical">
                         <div class="blog-artical-info">
                             <div class="blog-artical-info-img">
-                                <a href="single.html"><img src="images/7.jpg" title="post-name"></a>
+                                <a href="single.html"><img src="{{ asset('images/7.jpg') }}" title="post-name"></a>
                             </div>
                             <div class="blog-artical-info-head">
                                 <h2><a href="{{ path('singleblog', {'project': 12, 'user': 21}) }}">
@@ -90,7 +90,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
                         <div class="blog-artical-info">
                             <div class="blog-artical-info-img">
-                                <a href="single.html"><img src="images/8.jpg" title="post-name"></a>
+                                <a href="single.html"><img src="{{ asset('images/8.jpg') }}" title="post-name"></a>
 
                             </div>
                             <div class="blog-artical-info-head">
@@ -99,7 +99,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
                             </div>
                             <div class="blog-artical-info-text">
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum dummy text of the printing and typesetting industry. Lorem Ipsum dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy has been the industry's standard dummy has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.<a href="#">[...]</a></p>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                    Lorem Ipsum dummy text of the printing and typesetting industry.
+                                    Lorem Ipsum dummy text of the printing and typesetting industry.
+                                    Lorem Ipsum has been the industry's standard dummy has been the industry's standard dummy has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.<a href="#">[...]</a></p>
                             </div>
                             <div class="artical-links">
                                 <ul>
@@ -114,7 +117,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
                         <div class="blog-artical-info">
                             <div class="blog-artical-info-img">
-                                <a href="single.html"><img src="images/9.jpg" title="post-name"></a>
+                                <a href="single.html"><img src="{{ asset('images/9.jpg') }}" title="post-name"></a>
                             </div>
                             <div class="blog-artical-info-head">
                                 <h2><a href="single.html">Lorem Ipsum has been the</a></h2>
@@ -122,7 +125,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
                             </div>
                             <div class="blog-artical-info-text">
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum dummy text of the printing and typesetting industry. Lorem Ipsum dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy has been the industry's standard dummy has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.<a href="#">[...]</a></p>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                    Lorem Ipsum dummy text of the printing and typesetting industry.
+                                    Lorem Ipsum dummy text of the printing and typesetting industry.
+                                    Lorem Ipsum has been the industry's standard dummy has been the industry's standard dummy has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.<a href="#">[...]</a></p>
                             </div>
                             <div class="artical-links">
                                 <ul>

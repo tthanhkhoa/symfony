@@ -42,7 +42,7 @@ class DefaultController extends Controller
         return $this->render('@AcmeTest/Default/add-post-blog.html.twig');
     }
     /**
-     * @Route("/login", name="login")
+     * @Route("/login-client", name="login-client")
      */
     public function login(Request $request)
     {
